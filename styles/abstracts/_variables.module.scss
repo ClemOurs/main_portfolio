@@ -1,0 +1,20 @@
+$primary-color: #3185FC;
+$bg-white-color: #F5F5F7;
+$white-color: #FBFBFB;
+$black-color: #202020;
+$orange-color: #DE6E4B;
+$green-color: #58CB78;
+$dark-color: #8E3E4C;
+$gradient-color: linear-gradient(270deg, #DE6E4B -9.59%, #857AA6 28.27%, #3185FC 48.78%, #45A8BA 78.82%, #58CB78 108.22%);
+
+
+:export {
+    primaryColor: $primary-color;
+    bgWhiteColor: $bg-white-color;
+    whiteColor: $white-color;
+    blackColor: $black-color;
+    orangeColor: $orange-color;
+    greenColor: $green-color;
+    darkColor: $dark-color;
+    gradientEffect: $gradient-color;
+}
