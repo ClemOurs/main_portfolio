@@ -1,0 +1,23 @@
+//flex direction
+@mixin FlexRow {
+    display: flex;
+    flex-direction: row;
+}
+@mixin FlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+//flex center
+@mixin FlexJustifyCenter {
+    display: flex;
+    justify-content: center;
+}
+@mixin FlexAlignCenter {
+    display: flex;
+    align-items: center;
+}
+@mixin FlexTotalCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
