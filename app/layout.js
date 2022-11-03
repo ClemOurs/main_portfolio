@@ -1,4 +1,6 @@
-import './app.scss'
+import './app.scss';
+import Navbar from '../components/navbar';
+
 
 export default function RootLayout({ children }) {
   return (
@@ -6,7 +8,10 @@ export default function RootLayout({ children }) {
       <head>
         <title>Next.js</title>
       </head>
-      <body>{children}</body>
+      <body id='base'>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

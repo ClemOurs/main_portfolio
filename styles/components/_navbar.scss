@@ -1,0 +1,25 @@
+#header {
+    nav {
+        @include FlexRow;
+        justify-content: space-around;
+        align-items: center;
+        height: 5em;
+
+        ul {
+            @include FlexRow;
+            align-items: center;
+            gap: 30px;
+
+            li {
+                &:hover{
+                    color: #fff;
+                }
+                &:last-child {
+                    padding: 0.5em 1em;
+                    background-color: $primary-color;
+                    border-radius: 3em;
+                }
+            }
+        }
+    }
+}
